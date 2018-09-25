@@ -1,0 +1,63 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#container {
+    display: block;
+    margin: auto auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+h1, h2 {
+    opacity: 0;
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+#one {
+    animation-delay: 1s;
+}
+
+#two {
+    animation-delay: 2s;
+}
+
+#three {
+    animation-delay: 3s;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
