@@ -42,14 +42,20 @@ h1, h2 {
 
 #one {
     animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
 }
 
 #two {
     animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
 }
 
 #three {
     animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
 }
 
 a {
